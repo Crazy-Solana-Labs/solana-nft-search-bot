@@ -1,0 +1,22 @@
+{
+  "name": "discord-solana-nft-search",
+  "version": "0.1.0",
+  "description": "Discord bot",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@nfteyez/sol-rayz": "^0.9.1",
+    "@solana/web3.js": "^1.31.0",
+    "axios": "^0.24.0",
+    "bluebird": "^3.7.2",
+    "bs58": "^4.0.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.2.0"
+  },
+  "license": "MIT"
+}
